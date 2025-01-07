@@ -2,6 +2,10 @@ class Q2_vowelsAndConsonants{
 	public static void main(String[] args){
 		
 		String name = args[0];
+		check(name);
+	}
+	
+	static void check(String name){
 		String vowels = "aeiouAEIOU";
 		int cntV = 0;
 		int cntC = 0;
